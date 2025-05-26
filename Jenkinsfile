@@ -32,7 +32,7 @@ pipeline {
         stage('Git: Code Checkout') {
             steps {
                 script{
-                    code_checkout("https://https://github.com/Akshay-Latthe/Wanderlust-K8S-Project-CICD.git","main")
+                    code_checkout("https://github.com/Akshay-Latthe/Wanderlust-K8S-Project-CICD.git","main")
                 }
             }
         }
